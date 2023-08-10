@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="welcomeBlock">
+        <div class="headWelcome">
+            <img class="logo" src="/img/logo.png" alt="">
+            <div class="phone">
+                <img src="/img/phoneIcon.svg" alt="Номер телефона" class="phoneIcon">
+                <span class="phoneNumber">+7 (495) <b>785-27-91</b></span>
+            </div>
+        </div>
+        <div class="middleWelcome">
+            <div class="mainText">
+                <h1 class="titleWelcome">СТАТУС Премиум</h1>
+                <h3 class="subtitleWelcome">Премиальный формат обслуживания</h3>
+                <a href="" class="buttonWelcome">Стать премиальным клиентом</a>
+            </div>
+            <div class="formWelcome">
+                <div class="titleFormWelcome">Перезвоним в течение 5 минут</div>
+                <form action="">
+                    <input type="text" class="inputWelcome" placeholder="Ваши фамилия, имя, отчество*" required pattern="^[А-Яа-яЁё\s]+$" title="Пожалуйста, используйте только кириллицу">
+                    <input type="tel" class="inputWelcome" placeholder="Ваш телефон*" required pattern="[0-9]{11}" maxlength="11" title="Пожалуйста, введите 11 цифр вашего номера телефона">
+                    <button class="btnWelcome">Заказать звонок</button>
+                </form>
+            </div>
+        </div>
+        <div class="bottomWelcome">
+            <ul class="listWelcome">
+                <li class="bottomWelcomeText">
+                    Назовите промокод <span class="TextWhite">#PREMIUM</span>
+                    при обращении и получите <span class="TextWhite">скидку 15%</span>
+
+                </li>
+                <li class="bottomWelcomeText">
+                    <span class="TextWhite">БЕСПЛАТНАЯ</span>
+                    парковка для
+                    владельцев карт премиального обслуживания <span class="TextWhite">STATUS
+                        Premium</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Блок "Премиальное Обслуживание" -->
+
+    <div class="serviceBlock">
+        <div class="titleService">Премиальное обслуживания</div>
+        <div class="cardsService">
+            <div class="cardService">
+                <div class="serviceIcon serviceIcon1"></div>
+                <div class="cardServiceTitle">Без <br> очереди</div>
+                <div class="cardServiceText">Обслуживание в выделенной зоне</div>
+                <div class="cardServiceText">Предоставление отдельного кабинета для переговоров</div>
+            </div>
+
+            <div class="cardService">
+                <div class="serviceIcon serviceIcon2"></div>
+                <div class="cardServiceTitle">Персональный менеджер</div>
+                <div class="cardServiceText">Индивидуальный подход к решению Ваших задач</div>
+                <div class="cardServiceText">Информационная поддержка</div>
+            </div>
+
+            <div class="cardService">
+                <div class="serviceIcon serviceIcon3"></div>
+                <div class="cardServiceTitle">Экспертное консультирование</div>
+                <div class="cardServiceText">Предварительная экспертиза</div>
+                <div class="cardServiceText">Подготовка необходимых документов</div>
+            </div>
+
+            <div class="cardService">
+                <div class="serviceIcon serviceIcon4"></div>
+                <div class="cardServiceTitle">Исполнение операций в срок</div>
+                <div class="cardServiceText">Исполнение операций в день предоставления документов</div>
+                <div class="cardServiceText">Выезд к клиенту</div>
+                <div class="cardServiceText">Доставка документов курьером</div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Блок "Привилегии" -->
+
+    <div class="privilegesBlock">
+        <div class="privilegesTitle">Привилегии</div>
+        <div class="privilegesContent">
+            <div class="privilegesContentImg"><img src="/img/Group(1).png" alt=""></div>
+            <div class="privilegesContentText">
+                <div class="privilegesContentTitle">Бесплатная парковка</div>
+                <div class="privilegesContentTextContent">При обслуживании в офисе для владельцев карт премиального
+                    обслуживания <span class="TextWhite"> STATUS Premium </span></div>
+            </div>
+        </div>
+        <div class="privilegesFormTitle">Запланировать встречу</div>
+        <form action="" class="privilegesForm">
+
+            <div class="nameInput">
+                <img src="/img/profile.svg" alt="" class="iconContent1">
+                <input type="text" placeholder="Ваши фамилия, имя, отчество*" class="privilegesFormInput" required>
+            </div>
+            <div class="telInput">
+                <img src="/img/telephone-handle-silhouette.svg" alt="" class="iconContent2">
+                <input type="tel" placeholder="Ваш телефон*" class="privilegesFormInput iconContent2" required>
+            </div>
+            <button class="privilegesFormButton">Запланировать встречу</button>
+        </form>
+    </div>
+
+
+    <!-- Блок "Индивидуальная поддержка" -->
+
+    <div class="supportBlock">
+        <div class="supportTitle">Индивидуальная поддержка</div>
+        <div class="supportCards">
+            <div class="supportName">
+                <div class="supportPhotoContainer">
+                    <img src="/img/support/Цай.png" alt="" class="supportPhoto">
+                </div>
+                <div class="supportCardTitle">Андрей Цай</div>
+                <div class="supportJob">Директор по работе с ключевыми клиентами</div>
+                <div class="supportPhone">+7 (495) 280-04-87 доб. 414</div>
+                <div class="supportEmail">Tsay-AY@rostatus.ru</div>
+            </div>
+
+            <div class="supportName">
+                <div class="supportPhotoContainer">
+                    <img src="/img/support/юлия.jpg" alt="" class="supportPhoto">
+                </div>
+                <div class="supportCardTitle">Юлия Федотова</div>
+                <div class="supportJob">Директор по работе с клиентами</div>
+                <div class="supportPhone">+7 (495) 280-04-87 доб. 424</div>
+                <div class="supportEmail">fedotova-jb@rostatus.ru</div>
+            </div>
+
+            <div class="supportName">
+                <div class="supportPhotoContainer">
+                    <img src="/img/support/Матвеев.png" alt="" class="supportPhoto">
+                </div>
+                <div class="supportCardTitle">Никита Матвеев</div>
+                <div class="supportJob">Начальник управления по работе с ключевыми
+                    клиентами</div>
+                <div class="supportPhone">+7 (495) 280-04-87 доб. 279</div>
+                <div class="supportEmail">Matveev-NS@rostatus.ru</div>
+            </div>
+
+            <div class="supportName">
+                <div class="supportPhotoContainer">
+                    <img src="/img/support/Орлов.png" alt="" class="supportPhoto">
+                </div>
+                <div class="supportCardTitle">Артем Орлов</div>
+                <div class="supportJob">Менеджер управления по работе с ключевыми клиентами</div>
+                <div class="supportPhone">+7 (495) 280-04-87 доб. 419</div>
+                <div class="supportEmail">Orlov-AR@rostatus.ru</div>
+            </div>
+
+            <div class="supportName">
+                <div class="supportPhotoContainer">
+                    <img src="/img/support/Алексеенкова.png" alt="" class="supportPhoto">
+                </div>
+                <div class="supportCardTitle">Наталья Алексеенкова</div>
+                <div class="supportJob">Ведущий специалист отдела по работе с корпоративными клиентами</div>
+                <div class="supportPhone">+7 (495) 280-04-87 доб. 209</div>
+                <div class="supportEmail">Alekseenkova-NA@rostatus.ru</div>
+            </div>
+
+            <div class="supportName">
+                <div class="supportPhotoContainer">
+                    <img src="/img/support/Коновалова.png" alt="" class="supportPhoto">
+                </div>
+                <div class="supportCardTitle">Ольга Коновалова</div>
+                <div class="supportJob">Начальник отдела по работе с зарегистрированными лицами </div>
+                <div class="supportPhone">+7 (495) 280-04-87 доб. 225</div>
+                <div class="supportEmail">Konovalova-ON@rostatus.ru</div>
+            </div>
+
+            <div class="supportName">
+                <div class="supportPhotoContainer">
+                    <img src="/img/support/Цыганков .png" alt="" class="supportPhoto">
+                </div>
+                <div class="supportCardTitle">Александр Цыганков</div>
+                <div class="supportJob">Ведущий специалист отдела по работе с корпоративными клиентами</div>
+                <div class="supportPhone">+7 (495) 280-04-87 доб. 224</div>
+                <div class="supportEmail">Tsigankov-AS@rostatus.ru</div>
+            </div>
+
+            <div class="supportName">
+                <div class="supportPhotoContainer">
+                    <img src="/img/support/Зернова.png" alt="" class="supportPhoto">
+                </div>
+                <div class="supportCardTitle">Екатерина Зернова</div>
+                <div class="supportJob">Начальник контакт-центра</div>
+                <div class="supportPhone">+7 (495) 280-04-87 доб. 418</div>
+                <div class="supportEmail">Zernova-EY@rostatus.ru</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Слайдер -->
+
+    <div class="sliderContainer">
+        <div class="supportTitle">Индивидуальная поддержка</div>
+        <div class="slider">
+            <div class="sliderLine">
+                <div class="supportName">
+                    <div class="supportPhotoContainer">
+                        <img src="/img/support/Цай.png" alt="" class="supportPhoto">
+                    </div>
+                    <div class="supportCardTitle">Андрей Цай</div>
+                    <div class="supportJob">Директор по работе с ключевыми клиентами</div>
+                    <div class="supportPhone">+7 (495) 280-04-87 доб. 414</div>
+                    <div class="supportEmail">Tsay-AY@rostatus.ru</div>
+                </div>
+
+                <div class="supportName">
+                    <div class="supportPhotoContainer">
+                        <img src="/img/support/юлия.jpg" alt="" class="supportPhoto">
+                    </div>
+                    <div class="supportCardTitle">Юлия Федотова</div>
+                    <div class="supportJob">Директор по работе с клиентами</div>
+                    <div class="supportPhone">+7 (495) 280-04-87 доб. 424</div>
+                    <div class="supportEmail">fedotova-jb@rostatus.ru</div>
+                </div>
+
+                <div class="supportName">
+                    <div class="supportPhotoContainer">
+                        <img src="/img/support/Матвеев.png" alt="" class="supportPhoto">
+                    </div>
+                    <div class="supportCardTitle">Никита Матвеев</div>
+                    <div class="supportJob">Начальник управления по работе с ключевыми
+                        клиентами</div>
+                    <div class="supportPhone">+7 (495) 280-04-87 доб. 279</div>
+                    <div class="supportEmail">Matveev-NS@rostatus.ru</div>
+                </div>
+
+                <div class="supportName">
+                    <div class="supportPhotoContainer">
+                        <img src="/img/support/Орлов.png" alt="" class="supportPhoto">
+                    </div>
+                    <div class="supportCardTitle">Артем Орлов</div>
+                    <div class="supportJob">Менеджер управления по работе с ключевыми клиентами</div>
+                    <div class="supportPhone">+7 (495) 280-04-87 доб. 419</div>
+                    <div class="supportEmail">Orlov-AR@rostatus.ru</div>
+                </div>
+
+                <div class="supportName">
+                    <div class="supportPhotoContainer">
+                        <img src="/img/support/Алексеенкова.png" alt="" class="supportPhoto">
+                    </div>
+                    <div class="supportCardTitle">Наталья Алексеенкова</div>
+                    <div class="supportJob">Ведущий специалист отдела по работе с корпоративными клиентами</div>
+                    <div class="supportPhone">+7 (495) 280-04-87 доб. 209</div>
+                    <div class="supportEmail">Alekseenkova-NA@rostatus.ru</div>
+                </div>
+
+                <div class="supportName">
+                    <div class="supportPhotoContainer">
+                        <img src="/img/support/Коновалова.png" alt="" class="supportPhoto">
+                    </div>
+                    <div class="supportCardTitle">Ольга Коновалова</div>
+                    <div class="supportJob">Начальник отдела по работе с зарегистрированными лицами </div>
+                    <div class="supportPhone">+7 (495) 280-04-87 доб. 225</div>
+                    <div class="supportEmail">Konovalova-ON@rostatus.ru</div>
+                </div>
+
+                <div class="supportName">
+                    <div class="supportPhotoContainer">
+                        <img src="/img/support/Цыганков .png" alt="" class="supportPhoto">
+                    </div>
+                    <div class="supportCardTitle">Александр Цыганков</div>
+                    <div class="supportJob">Ведущий специалист отдела по работе с корпоративными клиентами</div>
+                    <div class="supportPhone">+7 (495) 280-04-87 доб. 224</div>
+                    <div class="supportEmail">Tsigankov-AS@rostatus.ru</div>
+                </div>
+
+                <div class="supportName">
+                    <div class="supportPhotoContainer">
+                        <img src="/img/support/Зернова.png" alt="" class="supportPhoto">
+                    </div>
+                    <div class="supportCardTitle">Екатерина Зернова</div>
+                    <div class="supportJob">Начальник контакт-центра</div>
+                    <div class="supportPhone">+7 (495) 280-04-87 доб. 418</div>
+                    <div class="supportEmail">Zernova-EY@rostatus.ru</div>
+                </div>
+            </div>
+        </div>
+        <button class="sliderBack">Назад</button>
+        <button class="sliderNext">Вперед</button>
+    </div>
+
+    <!-- Блок "Как стать премиальным клиентом" -->
+
+    <div class="howBlock">
+        <div class="howTitle">Как стать премиальным клиентом</div>
+        <div class="howContent">
+            <div class="howSteps">
+                <div class="stepOne step">
+                    <div class="stepNumber">01</div>
+                    <img src="/img/Rectangle3.svg" alt="" class="stepLine">
+                    <div class="stepText text1">Закажите звонок или заполните заявку</div>
+                </div>
+
+                <div class="stepTwo step">
+                    <div class="stepNumber">02</div>
+                    <img src="/img/Rectangle3.svg" alt="" class="stepLine">
+                    <div class="stepText text2">Мы перезвоним Вам <br> в течение 5 минут</div>
+                </div>
+
+                <div class="stepThree step">
+                    <div class="stepNumber">03</div>
+                    <img src="/img/Rectangle3.svg" alt="" class="stepLine">
+                    <div class="stepText text3">Персональный менеджер предложит набор услуг согласно Вашим задачам</div>
+                </div>
+            </div>
+            <div class="howMan">
+                <div class="man">
+                    <img src="/img/Группа1.png" alt="" class="manImg">
+                    <div class="manText">Назовите промокод <span class="TextWhite"> #PREMIUM <br> </span> при обращении
+                        и
+                        получите <span class="TextWhite">скидку 15% </span></div>
+                </div>
+                <div class="formContainer">
+                    <div class="manFormTitle">Вы получаете</div>
+                    <div class="manFormSubtile">
+                        <div class="howLine"></div>
+                        <div class="manFormText">Приоритетное обслуживание, быстрые экспертные решения</div>
+                    </div>
+                    <div class="formMan">
+                        <div class="titleFormMan">Стать премиальным клиентом</div>
+                        <form action="">
+                            <input type="text" class="inputMan" placeholder="Ваши фамилия, имя, отчество*" required>
+                            <input type="tel" class="inputMan" placeholder="Ваш телефон*" required>
+                            <button class="btnMan openPopup" preventDefault()>Стать клиентом</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <img class="logoFooter" src="/img/logo.png" alt="">
+        <div class="phoneFooter">
+            <img src="/img/Frame(1).svg" alt="Номер телефона" class="phoneIconFooter">
+            <span class="phoneNumberFooter">+7 (495) <b>785-27-91</b></span>
+        </div>
+    </div>
+
+
+    <!-- Pop-up окно -->
+
+
+    <div class="popupBg">
+        <div class="popup">
+            <div class="popupText">
+            Ваши данные отправлены <br>
+            Скоро с вами свяжется наш оператор
+        </div>
+        <button type="submit" class="popupBtn closePopup">Хорошо</button>
+        </div>
+    </div>
+    <script src="/js/js.js"></script>
+</body>
+
+</html>
